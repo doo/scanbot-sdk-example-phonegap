@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "displayName": "Scanbot SDK Example PhoneGap",
   "cordova": {
-    "platforms": [],
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "plugins": {}
   },
-  "dependencies": {}
+  "dependencies": {
+    "cordova-android": "^7.0.0",
+    "cordova-ios": "^4.5.4"
+  }
 }
