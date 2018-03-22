@@ -39,22 +39,40 @@
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
 
     <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <title>Hello World</title>
+    <title>Scanbot SDK Example PhoneGap</title>
 </head>
 
 <body>
-    <div class="app">
-        <h1>PhoneGap</h1>
-        <div id="deviceready" class="blink">
-            <p class="event listening">Connecting to Device</p>
-            <p class="event received">Device is Ready</p>
-        </div>
-    </div>
-    <script type="text/javascript" src="cordova.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
-    <script type="text/javascript">
-        app.initialize();
-    </script>
-</body>
 
+<div class="app">
+
+    <div class="demo-header">
+        <img src="img/scanbot-logo.png">
+        <img src="img/phonegap-logo.png">
+    </div>
+
+    <h1>Scanbot SDK Example PhoneGap</h1>
+
+    <div id="deviceready">
+
+        <p class="event listening">Connecting to Device</p>
+        <p id="label-ready" class="event received blink">Device is Ready</p>
+
+        <div class="buttons-panel">
+            <button id="start-camera-ui-button">Scanbot Camera UI</button>
+            <button id="start-cropping-ui-button">Scanbot Cropping UI</button>
+            <button id="apply-image-filter-button">Apply Image Filter</button>
+            <button id="perform-ocr-button">Perform OCR</button>
+            <button id="start-barcode-scanner-ui-button">Scanbot Barcode Scanner</button>
+        </div>
+
+        <img id="image-result" src="img/phonegap-logo.png">
+
+    </div>
+</div>
+
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+</body>
 </html>
