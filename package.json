@@ -8,12 +8,17 @@
       "android"
     ],
     "plugins": {
-      "cordova-plugin-device": {}
+      "cordova-plugin-device": {},
+      "cordova-plugin-scanbot-sdk": {
+        "CAMERA_USAGE_DESCRIPTION": " ",
+        "PHOTOLIBRARY_USAGE_DESCRIPTION": " "
+      }
     }
   },
   "dependencies": {
     "cordova-android": "^7.0.0",
     "cordova-ios": "^4.5.4",
-    "cordova-plugin-device": "^1.1.7"
+    "cordova-plugin-device": "^1.1.7",
+    "cordova-plugin-scanbot-sdk": "^1.6.0"
   }
 }
