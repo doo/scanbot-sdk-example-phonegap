@@ -1,0 +1,10 @@
+{
+  "name": "io.scanbot.example.sdk.phonegap",
+  "version": "1.0.0",
+  "displayName": "Scanbot SDK Example PhoneGap",
+  "cordova": {
+    "platforms": [],
+    "plugins": {}
+  },
+  "dependencies": {}
+}
