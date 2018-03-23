@@ -17,8 +17,8 @@
     }
   },
   "dependencies": {
-    "cordova-android": "^7.0.0",
-    "cordova-ios": "^4.5.4",
+    "cordova-android": "7.0.0",
+    "cordova-ios": "4.5.4",
     "cordova-plugin-device": "^1.1.7",
     "cordova-plugin-file": "^6.0.1",
     "cordova-plugin-scanbot-sdk": "^1.6.0"
