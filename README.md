@@ -1,4 +1,6 @@
-# Example App for Scanbot SDK Cordova Plugin with PhoneGap
+# Capture documents (OCR), barcodes, QR codes, MRZ and more.
+
+## Scanbot SDK example app for PhoneGap
 
 This example app shows how to integrate the Scanbot SDK Cordova Plugin with PhoneGap. 
 The Scanbot SDK Cordova Plugin is available as [npm package](https://www.npmjs.com/package/cordova-plugin-scanbot-sdk).
@@ -9,7 +11,7 @@ The app demonstrates only a few features of the plugin. For more details please 
 ## What is Scanbot SDK?
 The Scanbot SDK brings scanning and document creation capabilities to your mobile apps. 
 It contains modules which are individually licensable as license packages. 
-For more details visit our website [https://scanbot.io/sdk.html](https://scanbot.io/sdk.html)
+For more details visit our website https://scanbot.io/sdk
 
 
 ## How to run this app
