@@ -11,7 +11,7 @@ The app demonstrates only a few features of the plugin. For more details please 
 ## What is Scanbot SDK?
 The Scanbot SDK brings scanning and document creation capabilities to your mobile apps.
 It contains modules which are individually licensable as license packages.
-For more details visit our website https://scanbot.io/sdk
+For more details visit our website https://scanbot.io
 
 
 ## How to run this app
@@ -63,6 +63,6 @@ Or in other words, the PhoneGap serve mode `phonegap serve` **will not work**! Y
 ## Scanbot SDK trial mode
 
 This example app does not contain a Scanbot SDK license key and runs in a **trial mode (trial period of 1 minute)**!  
-After the trial period has expired the Scanbot SDK functions will stop working. 
+After the trial period has expired the Scanbot SDK functions will stop working.
 The UI parts (like Camera UI) will stop working or may be terminated.
 You have to restart the app to get another trial period.
